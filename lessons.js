@@ -66,7 +66,7 @@ let lessondata=[
     {
         id: 1009,
         subject: "Spanish",
-        location: "Columbia",
+        location: "Columbias",
         price: 900,
         space: 5,
         image: "images/spans.jpg"
