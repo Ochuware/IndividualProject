@@ -130,7 +130,7 @@
                         <div>
                             <label for="phone">Phone</label>
                             <input type="number" id="phone" v-model="phone" v-on:input="validate">
-                            <small style="color:blueviolet;" v-if="errors.phone">{{errors.phone}}</small>
+                            <small style="color:red;" v-if="errors.phone">{{errors.phone}}</small>
                         </div>
                         <button type="submit" v-show="valid == true">Checkout</button>
                     </form>
