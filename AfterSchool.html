@@ -124,13 +124,13 @@
                         <div>
                             <label for="name">Name</label>
                             <input type="text" id="name" v-model="name" v-on:input="validate">
-                            <small style="color:rebeccapurple;" v-if="errors.name">{{errors.name}}</small>
+                            <small style="color:red;" v-if="errors.name">{{errors.name}}</small>
                         </div>
 
                         <div>
                             <label for="phone">Phone</label>
                             <input type="number" id="phone" v-model="phone" v-on:input="validate">
-                            <small style="color:red;" v-if="errors.phone">{{errors.phone}}</small>
+                            <small style="color:royalblue;" v-if="errors.phone">{{errors.phone}}</small>
                         </div>
                         <button type="submit" v-show="valid == true">Checkout</button>
                     </form>
