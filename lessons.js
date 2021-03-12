@@ -73,7 +73,7 @@ let lessondata=[
     },
     {
         id: 1010,
-        subject: "Arts",
+        subject: "Art",
         location: "France",
         price: 1000,
         space: 5,
